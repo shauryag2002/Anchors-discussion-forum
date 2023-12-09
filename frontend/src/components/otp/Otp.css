@@ -1,0 +1,44 @@
+:root {
+    --light: #d8c3a5;
+    --white: #d2e1c7;
+    --grey: #8e8d8a;
+    --tamato: #e98074;
+    --red: #e85a4f;
+}
+
+.otp_main {
+    background-color: var(--light);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.otp_text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--red);
+}
+
+.otp_inp {
+    margin-bottom: 10px;
+}
+
+.otp_input {
+    width: 253px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.otp_button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.otp_button:hover {
+    background-color: #0056b3;
+}

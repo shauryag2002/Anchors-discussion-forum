@@ -1,0 +1,106 @@
+:root {
+    --light: #d8c3a5;
+    --white: #d2e1c7;
+    --grey: #8e8d8a;
+    --tamato: #e98074;
+    --red: #e85a4f;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    max-width: 600px;
+}
+
+.inputPost {
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.inputText {
+    width: 90%;
+    margin: 10px;
+    height: 100px;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.inputPostButton {
+    width: 98%;
+    padding: 10px;
+    margin: 5px;
+    background: var(--tamato);
+    border-radius: 30px;
+    border: 0;
+    color: white;
+}
+
+.text {
+    font-size: 2.5rem;
+}
+
+.post {
+    border: 2px solid var(--red);
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.wrapperComment {
+    margin-left: 20px;
+}
+
+.replyInp {
+    width: 80%;
+    margin: 10px;
+    height: 30px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border: 1px solid rgb(218, 181, 181);
+}
+
+.postUsername {
+    padding: 6px;
+    font-size: 1.3rem;
+    margin: 5px;
+    background: hwb(40 28% 31%);
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    width: max-content;
+}
+
+.replyName {
+    padding: 8px;
+    margin: 5px;
+    background: var(--grey);
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    width: max-content;
+}
+
+hr {
+    background-color: var(--grey);
+    height: 1px;
+
+}
+
+.replyText {
+    margin-left: 54px;
+}
+
+.submit {
+    padding: 10px;
+    margin: 5px;
+    background: var(--tamato);
+    border-radius: 30px;
+    border: 0;
+    color: white;
+}

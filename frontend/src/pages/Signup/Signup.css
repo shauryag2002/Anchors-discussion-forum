@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+:root {
+    --light: #d8c3a5;
+    --white: #d2e1c7;
+    --grey: #8e8d8a;
+    --tamato: #e98074;
+    --red: #e85a4f;
+}
+
+.sign1up {
+    width: 100vw;
+    height: 100vh;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.signup_form_left {
+    box-sizing: border-box;
+
+    width: 505px;
+    height: 583px;
+
+    background: var(--white);
+    border: 0.5px solid #878787;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.signup_image {
+    max-width: 50%;
+}
+
+.signup_welcome {
+    width: 132px;
+    height: 38px;
+    left: 146px;
+    top: 150px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: var(--red);
+}
+
+.signup {
+    width: 503px;
+    height: 548px;
+}
+
+.signup_main {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+    height: 100px;
+    left: 146px;
+    top: 217px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 46px;
+    color: var(--red);
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.username {
+    width: 423px;
+    height: 67px;
+}
+
+.password {
+    width: 423px;
+    height: 67px;
+    left: 146px;
+    top: 467px;
+}
+
+.remember {
+    margin-left: 20px;
+    width: 453px;
+    height: 18px;
+    left: 146px;
+    top: 582px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rememberWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.signup_button {
+    margin-top: 13px;
+    display: flex;
+    width: 423px;
+    height: 33px;
+    left: 146px;
+    top: 638px;
+    margin-left: 20px;
+    background: var(--red);
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.forget {
+    width: 138px;
+    height: 18px;
+    left: 461px;
+    top: 582px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #4d4d4d;
+}
+
+.remember_text {
+    margin-left: 10px;
+    width: 91px;
+    height: 18px;
+    left: 171px;
+    top: 582px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: var(--red);
+}
+
+.check {
+    box-sizing: border-box;
+
+    width: 15px;
+    height: 15px;
+    left: 146px;
+    top: 585px;
+
+    background: var(--white);
+    border: 1px solid var(--red);
+}
+
+.register {
+    width: 271px;
+    height: 24px;
+    left: 223px;
+    top: 751px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #7d7d7d;
+}
+
+.inp {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 20px;
+    width: 423px;
+    height: 34px;
+    color: #ababab;
+    text-indent: 10px;
+}
+
+.signup_text {
+    width: 43px;
+    height: 24px;
+    left: 336px;
+    top: 655px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--white);
+}
+
+
+.register_text {
+    color: var(--red);
+}
+
+.username_text,
+.name_text,
+.password_text,
+.email_text,
+.profile_text,
+.desc_text,
+.city_text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-left: 20px;
+    color: var(--red);
+}
+
+.password_text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 20px;
+    color: var(--red);
+}
+
+.name {
+    margin-top: -49px;
+}
+
+.choose-image-input {
+    margin-left: 20px;
+}
+
+.signup_form_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 78%;
+    margin-top: -106px;
+}
+
+.error {
+    color: red;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1149px) {
+    .signup {
+        width: 91%;
+    }
+
+    .signup_image {
+        display: none;
+    }
+
+    .inp {
+        width: 99%;
+    }
+
+    .w-99 {
+        width: 99%;
+    }
+
+    .signup_form_left {
+        max-width: 475px;
+        height: 549px;
+        margin-top: -44px;
+        margin-left: -14px;
+        margin: 0 10px;
+    }
+
+    .signup_button {
+        width: 100%;
+    }
+}
